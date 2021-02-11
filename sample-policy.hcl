@@ -37,7 +37,7 @@ path "sys/mounts/*"
 # Read health checks
 path "sys/health"
 {
-  capabilities = ["read", "sudo"]
+  capabilities = ["read", "sudo", "update"]
 }
 
 # To perform Step 4
